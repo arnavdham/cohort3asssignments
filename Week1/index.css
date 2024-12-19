@@ -1,0 +1,10 @@
+.toplink{
+    color: #9ba3b4;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.toplink:hover{
+    color:white;
+}
