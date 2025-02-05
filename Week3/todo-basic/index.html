@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Todo</title>
+</head>
+<script src="script.js"></script>
+<body>
+    <h1>Todo-ist</h1>
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <input placeholder="Enter Todo here" type="text" style="height: 30px; font-size: 14px;" >
+        <button onclick="Add()" style="height: 30px; display: flex; align-items: center; justify-content: center; padding: 15px 10px;">
+            <img 
+                src="https://cdn-icons-png.flaticon.com/512/2661/2661440.png" 
+                alt="Add" 
+                style="width: 30px; height: 30px;"
+            >
+        </button>
+    </div>
+    <div id="listoftodo"></div>
+</body>
+</html>
